@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Assignment JS</title>
+    </head>
+    <body>
+        <center>
+        <input type="text" onkeypress="show()" id="give" />
+         <h1><span id="result"></span></h1>
+        <script>
+            function show(){
+                var data = document.getElementById("give").value;
+                document.getElementById("result").innerText=data;
+            }
+        </script>
+        </center>
+    </body>
+</html>
